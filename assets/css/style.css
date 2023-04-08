@@ -494,4 +494,185 @@ main .section_1 .div-section1 .bottom-icon img {
 }
 .section_7 .container .row .col-3 div .div-img4 {
   background-image: url("https://preview.colorlib.com/theme/waterboat/images/person_4.jpg");
+}
+
+.section_8 {
+  padding: 4% 0px;
+}
+.section_8 .container {
+  width: 60%;
+  margin: 0 auto;
+}
+.section_8 .container .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section_8 .container .row .col-section8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 0px;
+}
+.section_8 .container .row .col-section8 div {
+  text-align: center;
+}
+.section_8 .container .row .col-section8 div h6 {
+  color: #1089ff;
+  font-size: 16px;
+}
+.section_8 .container .row .col-section8 div .h-4 {
+  margin-top: 5%;
+  position: relative;
+}
+.section_8 .container .row .col-section8 div .h-4::before {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  height: 2px;
+  background: #1089ff;
+  width: 100%;
+}
+.section_8 .container .row .col-4 {
+  padding: 0px 2%;
+}
+.section_8 .container .row .col-4 div .div-word {
+  border: 1px solid rgb(189, 189, 189);
+  border-radius: 5px;
+  padding: 12% 5% 12% 12%;
+}
+.section_8 .container .row .col-4 div .div-word .word-p {
+  font-size: 15px;
+  font-style: italic;
+  color: gray;
+}
+.section_8 .container .row .col-4 div .div-word .word-p i {
+  float: right;
+  font-size: 25px;
+  margin-bottom: 5%;
+}
+.section_8 .container .row .col-4 div .worddiv-bottom .right-col8 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5%;
+  align-items: center;
+}
+.section_8 .container .row .col-4 div .worddiv-bottom .right-col8 .col-4 img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.section_8 .container .row .col-4 div .worddiv-bottom .right-col8 .col-8 {
+  font-size: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.section_8 .container .row .col-4 div .worddiv-bottom .right-col8 .col-8 .col-12 {
+  margin-top: 1%;
+}
+.section_8 .container .row .col-4 div .worddiv-bottom .right-col8 .col-8 .graycolor {
+  color: rgb(189, 186, 186);
+}
+
+.section_9 {
+  width: 100%;
+  position: relative;
+}
+.section_9 .maindiv-3 {
+  width: 100%;
+  height: 250px;
+  background: url("https://preview.colorlib.com/theme/waterboat/images/hero_2.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section_9 .maindiv-3 .container {
+  position: absolute;
+  width: 60%;
+  margin: 0 auto;
+}
+.section_9 .maindiv-3 .container .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section_9 .maindiv-3 .container .row .col-12 {
+  text-align: center;
+  color: white;
+}
+.section_9 .maindiv-3 .container .row .col-12 h1 {
+  font-size: 30px;
+}
+.section_9 .maindiv-3 .container .row .col-12 p {
+  font-size: 20px;
+  margin: 1% 0px;
+}
+.section_9 .maindiv-3 .container .row .col-12 button {
+  background-color: #ffa139;
+  color: white;
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+}
+.section_9 .maindiv-3::before {
+  content: "";
+  background: rgba(16, 137, 255, 0.677);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+footer .footer-first-div {
+  background-color: rgb(238, 238, 238);
+  padding: 5% 0px;
+}
+footer .footer-first-div .container {
+  width: 60%;
+  margin: 0px auto;
+}
+footer .footer-first-div .container .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+footer .footer-first-div .container .row .icon-col p {
+  color: gray;
+  margin: 5% 0px;
+}
+footer .footer-first-div .container .row .icon-col a {
+  color: #1089ff;
+}
+footer .footer-first-div .container .row .col-8 {
+  display: flex;
+  flex-wrap: wrap;
+}
+footer .footer-first-div .container .row .col-8 .footer-h {
+  font-size: 17px;
+  position: relative;
+}
+footer .footer-first-div .container .row .col-8 .footer-h::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  height: 2px;
+  background: #1089ff;
+  width: 50%;
+}
+footer .footer-first-div .container .row .col-8 li {
+  margin-top: 7%;
+}
+footer .footer-first-div .container .row .col-8 li a {
+  color: #1089ff;
+}
+footer .footer-first-div .container_2 {
+  width: 40%;
+  margin: 10% auto 0px auto;
+}
+footer .footer-first-div .container_2 .footer-bottom p {
+  color: gray;
+}
+footer .footer-first-div .container_2 .footer-bottom p a {
+  color: #1089ff;
 }/*# sourceMappingURL=style.css.map */
