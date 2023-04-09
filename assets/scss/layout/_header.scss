@@ -7,6 +7,7 @@
             flex-wrap: wrap;
             align-items: center;
             .col-3{
+                display: block;
                 .nav-top-div{
                     align-items: center;
                     display: flex;
@@ -28,10 +29,17 @@
                     }
                 }
             }
+            .col-md-12{
+                i{
+                    display: none;
+                }
+            }
+            
         }
     }
 }
 .nav-bottom{ 
+    display: block;
     position: sticky;
     top: 0;
     z-index: 99;
