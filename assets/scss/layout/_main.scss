@@ -1,0 +1,577 @@
+main{
+    .section_1{
+        .div-section1{
+            display: flex;
+            flex-wrap: wrap;
+            color: $color-4 !important;
+            width: 100%;
+            height: 100vh;
+            filter: brightness(95%);
+            background-image: url("https://preview.colorlib.com/theme/waterboat/images/hero_2.jpg.webp");
+            background-size: cover;
+            background-repeat: no-repeat;
+            .div-section2{
+                display: flex;
+                text-align: center;
+                justify-content: center;
+                height: 90%;
+                div{
+                    margin-top: 20%;
+                    h1{
+                        font-size: 3rem;
+                        font-weight: bolder;
+                        color: $color-4;
+                        font-family: $font-1;
+                    }
+                    p{
+                        margin: 5% 0px;
+                        font-size: 1.1rem;
+                        font-weight: bolder;
+                    }
+                    .first-button{
+                        width: 200px;
+                        height: 60px;
+                        color: $color-4;
+                        background-color: $color-3;
+                        border-radius: 5px;
+                        border: none;
+                    }
+                    .first-button:hover{
+                        background-color: $color-5;
+                    }
+                }
+            }
+            .left-icon{
+                display: flex;
+                align-items: center;
+                height: 90%;
+                button{
+                    width: 80px;
+                    height: 80px;
+                    background-color: $color-4;
+                    border-radius: 50%;
+                    font-size: 25px;
+                    border: none;
+                    &:hover{
+                        background-color: $color-6;
+                    }
+                }
+            }
+            .right-icon{
+                display: flex;
+                align-items: center;
+                justify-content: end;
+                height: 90%;
+                button{
+                    width: 80px;
+                    height: 80px;
+                    background-color: $color-4;
+                    border-radius: 50%;
+                    font-size: 25px;
+                    border: none;
+                    &:hover{
+                        background-color: $color-6;
+                    }
+                }
+            }
+            .bottom-icon{
+                height: 10%;
+                font-size: 50px;
+                display: flex;
+                justify-content: center;
+                gap: 10px;
+                img{
+                 width: 30px;
+                 height: 50px;
+                }
+            }
+        }
+    }
+}
+.section_2{
+    .container{
+        width: 60%;
+        margin: 5% auto;
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+            .col-6{
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+                div{
+                    margin: 0px 5%;
+                    h6{
+                        color: $color-3;
+                        font-size: 15px;
+                    }
+                    h1{
+                        font-size: 25px;
+                        margin: 3% 0px;
+                        font-family: $font-1;
+                    }
+                    p{
+                        margin: 5% 0px;
+                        font-size: 18px;
+                        color: $color-2;
+                    }
+                    .second-button{
+                        width: 200px;
+                        height: 60px;
+                        color: $color-4;
+                        background-color: $color-3;
+                        border-radius: 5px;
+                        border: none;
+                        margin-top: 3%;
+                    }
+                    .second-button:hover{
+                        background-color: $color-5;
+                    }
+                }
+            }
+            .col-4{
+                padding: 0px 2%;
+                margin: 7% 0px;
+                div{
+                    i{
+                        font-size: 50px;
+                    }
+                    h3{
+                        margin: 5% 0px;
+                        font-family: $font-1;
+                    }
+                    p{
+                        font-size: 1.3rem;
+                        color: $color-2;
+                    }
+                }
+            }
+        }
+    }
+}
+.section_3{
+    width: 100%;
+    position: relative;
+    
+    .maindiv-3{
+        width: 100%;
+        height: 250px;
+        background: url("https://preview.colorlib.com/theme/waterboat/images/hero_1.jpg");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        .container{
+           position: absolute;
+            width: 60%;
+            .row{
+                display: flex;
+                flex-wrap: wrap;
+                .col-5li{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    div{
+                        text-align: center;
+                        color: $color-4;
+                        h1{
+                            font-size: 50px;
+                            margin-bottom: 3%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .maindiv-3::before{
+        content: "";
+        background: rgba($color-3, 0.677);
+        position: absolute;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+}
+.section_4{
+    background-color: rgb(241, 235, 235);
+    padding: 5% 0px;
+    .container{
+        width: 60%;
+        margin: 0 auto;
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+            .col-12{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 5% 0px;
+                div{
+                    text-align: center;
+                    h6{
+                        color: $color-3;
+                        font-size: 16px;
+                    }
+                    .h-4{
+                        margin-top: 5%;
+                        position: relative;
+                        font-family: $font-1;
+                    }
+                    .h-4::before{
+                        content: "";
+                        position: absolute;
+                        bottom: -20px;
+                        height: 2px;
+                        background: $color-3;
+                        width: 100%;
+                    }
+                }
+            }
+            .col-4{
+                padding: 0px 1%;
+                margin-top: 5%;
+                div{
+                    img{
+                        width: 100%;
+                    }
+                    div{
+                        background-color: $color-4;
+                        padding:2% 1%;
+                        .row{
+                            display: flex;
+                            flex-wrap: wrap;
+                            .second-div{
+                                color: $color-2;
+                            }
+                            i{
+                                margin-right: 5%;
+                            }
+                            .col-4{
+                                display: flex;
+                                justify-content: end;
+                                align-items: end;
+                                button{
+                                    background-color:$color-3;
+                                    color: $color-4;
+                                    width: 80px;
+                                    height: 40px;
+                                    border: none;
+                                    border-radius: 5px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.section_5{
+    .container{
+        width: 60%;
+        margin: 5% auto;
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+            .first-col{
+                img{
+                    width: 100%;
+                }
+                .margin-div{
+                    padding: 0px 5%;
+                    h6{
+                        color: $color-3;
+                        font-size: 16px;
+                    }
+                    .h-4{
+                        margin-top: 5%;
+                        position: relative;
+                        font-family: $font-1;
+                    }
+                    .h-4::before{
+                        content: "";
+                        position: absolute;
+                        bottom: -20px;
+                        height: 2px;
+                        background: $color-3;
+                        width: 10%;
+                    }
+                    .form_div{
+                        margin-top: 5%;
+                        width: 100%;
+                        padding: 0px !important;
+                        .row_2{
+                            display: flex;
+                            flex-wrap: wrap;
+                            .col-6{
+                                margin-top: 3%;
+                                color: $color-2;
+                                label{
+                                    font-size: 20px;
+                                }
+                                input{
+                                    width: 80%;
+                                    height: 35px;
+                                    margin-top: 3%;
+                                    border:1px solid rgb(185, 183, 183);
+                                }
+                            }
+                            .col-12{
+                                margin-top: 3%;
+                                color: $color-2;
+                                label{
+                                    font-size: 20px;
+                                }
+                                input{
+                                    width: 90%;
+                                    height: 130px;
+                                    margin-top: 3%;
+                                    border:1px solid rgb(185, 183, 183);
+                                }
+                                .input-submit{
+                                    width: 35%;
+                                    height: 50px;
+                                    color: $color-4;
+                                    background: $color-3;
+                                    border-radius: 8px;
+                                }
+                                .input-submit:hover{
+                                    background-color: $color-5;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.section_6{
+    padding: 4% 0px;
+    .container{
+        width: 60%;
+        margin: 0 auto;
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+            .col-12{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 5% 0px;
+                div{
+                    text-align: center;
+                    h6{
+                        color: $color-3;
+                        font-size: 16px;
+                    }
+                    .h-4{
+                        margin-top: 5%;
+                        position: relative;
+                        font-family: $font-1;
+                    }
+                    .h-4::before{
+                        content: "";
+                        position: absolute;
+                        bottom: -20px;
+                        height: 2px;
+                        background: $color-3;
+                        width: 100%;
+                    }
+                }
+            }
+            .col-3{
+                padding: 0px 2%;
+                div{
+                    text-align: center;
+                    .div-img{
+                        transition: 0.5s;
+                        display: flex;
+                        align-items: end;
+                        padding: 5%;
+                        width: 100%;
+                        height: 300px;
+                        background-size: cover;
+                        background-image: url("https://preview.colorlib.com/theme/waterboat/images/person_1.jpg");
+                        .div-list{
+                            .black-hover{
+                                width: 40px;
+                                height: 40px;
+                                background-color: $color-4;
+                                margin-top: 20%;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                font-size: 20px;
+                            }
+                            .black-hover:hover{
+                                background-color: $color-1;
+                            }
+                        }
+                    }
+                    .div-img:hover{
+                        transform: scale(1.05);
+                    }
+                    h1{
+                        margin: 5% 0px;
+                        font-family: $font-1;
+                    }
+                    p{
+                        color: $color-3;
+                    }
+                    .div-img2{
+                        background-image: url("https://preview.colorlib.com/theme/waterboat/images/person_2.jpg");
+                    }
+                    .div-img3{
+                        background-image: url("https://preview.colorlib.com/theme/waterboat/images/person_3.jpg");
+                    }
+                    .div-img4{
+                        background-image: url("https://preview.colorlib.com/theme/waterboat/images/person_4.jpg");
+                    }
+                }
+            }
+        }
+    }
+}
+.section_7{
+    padding: 4% 0px;
+    .container{
+        width: 60%;
+        margin: 0 auto;
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+            .col-section8{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 5% 0px;
+                div{
+                    text-align: center;
+                    h6{
+                        color: $color-3;
+                        font-size: 16px;
+                    }
+                    .h-4{
+                        margin-top: 5%;
+                        position: relative;
+                        font-family: $font-1;
+                    }
+                    .h-4::before{
+                        content: "";
+                        position: absolute;
+                        bottom: -20px;
+                        height: 2px;
+                        background: $color-3;
+                        width: 100%;
+                    }
+                }
+            }
+            .col-4{
+                padding: 0px 2%;
+                div{
+                    .div-word{
+                        border: 1px solid rgb(189, 189, 189);
+                        border-radius: 5px;
+                        padding: 12% 5% 12% 12%;
+                        .word-p{
+                            font-size: 15px;
+                            font-style: italic;
+                            color: $color-2;
+                            i{
+                                float: right;
+                                font-size: 25px;
+                                margin-bottom: 5%;
+                            }
+                        }
+                    }
+                    .worddiv-bottom{
+                        .right-col8{
+                            display: flex;
+                            flex-wrap: wrap;
+                            margin-top: 5%;
+                            align-items: center;
+                            .col-4{
+                                img{
+                                    width: 50px;
+                                    height: 50px;
+                                    border-radius: 50%;
+                                }
+                            }
+                            .col-8{
+                                font-size: 15px;
+                                display: flex;
+                                flex-wrap: wrap;
+                                .col-12{
+                                    margin-top: 1%;
+                                }
+                                .graycolor{
+                                    color: rgb(189, 186, 186);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.section_8{
+    width: 100%;
+    position: relative;
+    .maindiv-3{
+        width: 100%;
+        height: 250px;
+        background: url("https://preview.colorlib.com/theme/waterboat/images/hero_2.jpg");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .container{
+           position: absolute;
+            width: 60%;
+            margin: 0 auto;
+            .row{
+                display: flex;
+                flex-wrap: wrap;
+                .col-12{
+                    text-align: center;
+                    color: $color-4;
+                    h1{
+                        font-size: 30px;
+                        font-family: $font-1;
+                    }
+                    p{
+                        font-size: 20px;
+                        margin: 1% 0px;
+                    }
+                    .orange-button{
+                        background-color: $color-7;
+                        color: $color-4;
+                        width: 200px;
+                        height: 50px;
+                        border: none;
+                        border-radius: 5px;
+                    }
+                    .orange-button:hover{
+                        background-color: $color-8;
+                    }
+                }
+            }
+        }
+    }
+    .maindiv-3::before{
+        content: "";
+        background: rgba($color-3, 0.677);
+        position: absolute;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+}

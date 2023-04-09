@@ -1,0 +1,62 @@
+footer{
+    
+    .footer-first-div{
+        background-color: rgb(238, 238, 238);
+        padding: 5% 0px;
+        .container{
+            width: 60%;
+            margin: 0px auto;
+            .row{
+                display: flex;
+                flex-wrap: wrap;
+                .icon-col{
+                    p{
+                        color: $color-2;
+                        margin: 5% 0px;
+                    }
+                    a{
+                        color: $color-3;
+                    }
+                }
+                .col-8{
+                    display: flex;
+                    flex-wrap: wrap;
+                    .footer-h{
+                        font-size: 17px;
+                        position: relative;
+                        font-family: $font-1;
+                    }
+                    .footer-h::before{
+                        content: "";
+                        position: absolute;
+                        bottom: -5px;
+                        height: 2px;
+                        background: $color-3;
+                        width: 50%;
+                    }
+                    li{
+                        margin-top: 7%;
+                        a{
+                            color: $color-3;
+                        }
+                    }
+                }
+            }
+        }
+        .container_2{
+            width: 40%;
+            margin: 10% auto 0px auto;
+            .footer-bottom{
+                p{
+                    color: $color-2;
+                    a{
+                        color: $color-3;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
